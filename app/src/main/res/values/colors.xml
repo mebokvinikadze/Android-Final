@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bright_red">#BA2234</color>
+    <color name="box_color">#e6e8ec</color>
+    <color name="date_color">#B1B5C3</color>
+    <color name="loading">#80000000</color>
+    <color name="pale_gray">#FCFCFD</color>
+    <color name="blackish_gray">#F4F5F6</color>
+    <color name="gray">#40000040</color>
+    <color name="transparent">#36FFFFFF</color>
+    <color name="pale">#888888</color>
+    <color name="light_blue">#1565C0</color>
+    <color name="pale_blue">#E3F2FD</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="red">#F44336</color>
+    <color name="mint">#aad4d3</color>
+    <color name="dark_mint">#5e9c99</color>
+    <color name="dark_gray">#777777</color>
+    <color name="purple">#9C27B0</color>
+    <color name="light_green">#ACE498</color>
+</resources>

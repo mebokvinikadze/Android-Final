@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivWorkoutImage"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/push_ups_on_knees"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWorkoutName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivWorkoutImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Plank" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWorkoutDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@id/tvWorkoutName"
+            app:layout_constraintStart_toStartOf="@id/tvWorkoutName"
+            app:layout_constraintTop_toBottomOf="@id/tvWorkoutName"
+            tools:text="Hold your body in a straight line from head to heels, engaging your core muscles." />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivTimeIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/time_icon"
+            android:tint="@color/green"
+            app:layout_constraintStart_toStartOf="@id/tvWorkoutName"
+            app:layout_constraintTop_toBottomOf="@id/tvWorkoutDescription" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWorkoutTime"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/green"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@id/ivTimeIcon"
+            app:layout_constraintStart_toEndOf="@id/ivTimeIcon"
+            app:layout_constraintTop_toTopOf="@id/ivTimeIcon"
+            tools:text="1:00 per set" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivSetsIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/repeat"
+            app:layout_constraintStart_toEndOf="@+id/tvWorkoutTime"
+            app:layout_constraintTop_toTopOf="@id/ivTimeIcon"
+            app:tint="@color/orange" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWorkoutSets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/orange"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@id/ivSetsIcon"
+            app:layout_constraintStart_toEndOf="@id/ivSetsIcon"
+            app:layout_constraintTop_toTopOf="@id/ivSetsIcon"
+            tools:text="3 sets" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvMuscleGroups"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/light_blue"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="@+id/ivTimeIcon"
+            app:layout_constraintTop_toBottomOf="@id/ivTimeIcon"
+            tools:text="Core, Full Body" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

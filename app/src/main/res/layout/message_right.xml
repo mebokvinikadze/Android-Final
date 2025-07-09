@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMessageBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/right_message_box"
+        android:backgroundTint="@color/box_color"
+        android:paddingStart="30dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="45dp"
+        android:paddingBottom="15dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMessageBox"
+        app:layout_constraintEnd_toEndOf="@+id/tvMessageBox" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:textColor="@color/date_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMessageBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>
