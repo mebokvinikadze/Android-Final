@@ -22,8 +22,9 @@ No clutter. No ads. Just workouts, progress, and a little motivation.
 ---
 
 ## Screenshots
+![image3](https://github.com/user-attachments/assets/ebc055d9-070c-4d77-a6e0-1c3bba4cdbfb) ![image2](https://github.com/user-attachments/assets/c8128c0b-3970-42ef-9f1f-66e0fedb6f48) ![image](https://github.com/user-attachments/assets/204e6660-e1cd-423c-939f-91ab3ad2f8d3) ![image5](https://github.com/user-attachments/assets/413b4072-67c9-4642-9d3e-b19bf5fe5b7d) ![image4](https://github.com/user-attachments/assets/55920ed7-f651-4176-8194-fa0011244993)
 
-![image](https://github.com/user-attachments/assets/61abe433-44bc-4562-8de2-faca2cacc5e9) ![image](https://github.com/user-attachments/assets/61e9e9d5-9f66-4ce7-a076-bac42b123d87) ![image](https://github.com/user-attachments/assets/da86b997-73dc-4c99-929f-f69fa3fcd01d) ![image](https://github.com/user-attachments/assets/dd7a91de-06af-45b9-a9f5-89ea91826570)
+
 
 
 
